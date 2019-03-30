@@ -1,0 +1,19 @@
+{
+    "java": {
+        "awscloudformation": {
+            "AuthRoleName": "myfirstbg-20190313190921-authRole",
+            "UnauthRoleArn": "arn:aws:iam::789558161437:role/myfirstbg-20190313190921-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::789558161437:role/myfirstbg-20190313190921-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "myfirstbg-20190313190921-deployment",
+            "UnauthRoleName": "myfirstbg-20190313190921-unauthRole",
+            "StackName": "myfirstbg-20190313190921",
+            "StackId": "arn:aws:cloudformation:us-east-2:789558161437:stack/myfirstbg-20190313190921/2e150510-45fe-11e9-ac1b-0a71b7d84638"
+        },
+        "categories": {
+            "auth": {
+                "cognito53268544": {}
+            }
+        }
+    }
+}

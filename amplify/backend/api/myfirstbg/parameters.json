@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "myfirstbg",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}

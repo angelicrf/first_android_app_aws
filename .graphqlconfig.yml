@@ -1,0 +1,16 @@
+projects:
+  myfirstbg:
+    schemaPath: app\src\main\graphql\schema.json
+    includes:
+      - app\src\main\graphql\**\*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: ''
+        generatedFileName: ''
+        docsFilePath: app\src\main\graphql\com\amazonaws\amplify\generated\graphql
+        graphQLApiId: kktrmtxh5je5jldncpptq7hsqa
+      endpoints:
+        prod: >-
+          https://bg3pwcmpbrg3hpbbjtcwlv3ezm.appsync-api.us-east-2.amazonaws.com/graphql
